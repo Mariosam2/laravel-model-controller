@@ -1,11 +1,23 @@
-<footer id="site_footer" class="bg-dark py-3">
+<footer id="site_footer" class="bg-dark py-5">
     <div class="container">
         <div class="row align-items-center justify-content-around">
             <div class="col-3">
                 <i class="fa-solid fa-clapperboard  fa-5x text-white"></i>
             </div>
-            <div class="col-3">
-                <ul class="list-unstyled m-0">
+            <div class="col-3 ms_links d-flex flex-wrap justify-content-around">
+
+                <ul class="list-unstyled my-0">
+                    <li class="title">
+                        <h4 class="text-white">Links</h4>
+                    </li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+                <ul class="list-unstyled my-0">
+                    <li class="title">
+                        <h4 class="text-white">Links</h4>
+                    </li>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Contact Us</a></li>
