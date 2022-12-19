@@ -8,10 +8,10 @@
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav me-auto mt-2 mt-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link {{Route::currentRouteName() === 'movies' || Route::currentRouteName() === 'movie'  ? 'active' : ''}}" href="{{route('movies')}}">Movies</a>
+                        <a class="nav-link {{Route::currentRouteName() === 'movies' || Route::currentRouteName() === 'movie'  ? 'active' : ''}} fw-bold" href="{{route('movies')}}">Movies</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link {{Route::currentRouteName() === 'contact'  ? 'active' : ''}}" href="{{route('contact')}}">Contact US</a>
+                        <a class="nav-link {{Route::currentRouteName() === 'contact'  ? 'active' : ''}} fw-bold" href="{{route('contact')}}">Contact US</a>
                     </li>
                 </ul>
                 <!--TODO: search movies -->
