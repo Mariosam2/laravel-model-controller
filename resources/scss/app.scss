@@ -16,11 +16,34 @@ header {
 }
 
 main {
+    min-height: 80vh;
     padding: 5rem 0;
 
     .contact-us {
-        .container {
-            height: 80vh;
+
+        h1 {
+            padding: 2rem 0;
+        }
+    }
+
+    .movie {
+        .movie-details {
+            padding: 2rem;
+
+            >* {
+                padding: 1rem 0;
+            }
+        }
+
+        .ms_star-yellow {
+            color: gold;
+
+        }
+
+        .invalid-movie {
+            h1 {
+                padding: 2rem 0;
+            }
         }
 
     }
