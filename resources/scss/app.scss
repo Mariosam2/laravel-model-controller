@@ -1,1 +1,39 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+
+
+main {
+    padding: 5rem 0;
+
+    .contact-us {
+        .container {
+            height: 80vh;
+        }
+
+    }
+}
+
+footer {
+
+    .social i,
+    a {
+        color: white;
+        transition: color 0.2s ease;
+
+        &:hover {
+            color: #dedddd;
+        }
+    }
+
+    a {
+        text-decoration: none;
+
+
+
+    }
+
+    .socials {
+        .social {
+            margin-inline-end: 1rem;
+        }
+    }
+}
